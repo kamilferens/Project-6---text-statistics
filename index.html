@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <title>Statystyki tekstu</title>
+    </head>
+    <body>
+        <div class="wrapper-container">
+            <div class="wrapper">
+                <div class="title">
+                    <h1>Sprawdzacz tekstu</h1>
+                </div>
+                <textarea
+                    name="textarea"
+                    id="textarea"
+                    cols="30"
+                    rows="10"
+                ></textarea>
+            </div>
+            <div class="output-container">
+                <div class="output">
+                    <div class="output-row">
+                        Ilosć znaków: <span id="num-characters"></span>
+                    </div>
+                    <div class="output-row">
+                        Ilosć słów: <span id="num-words"></span>
+                    </div>
+                    <div class="output-row">
+                        Ilosć zdań: <span id="num-sentences"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
